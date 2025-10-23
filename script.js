@@ -1,4 +1,6 @@
 function fibs(n) {
+    console.log("This was printed recursively");
+
     let sequence = [0, 1];
 
     for (let i = 2; i < n; i++) {
@@ -8,9 +10,11 @@ function fibs(n) {
     return sequence.slice(0, n);
 }
 
-console.log(fibs(10));
+console.log(fibs(8));
 
 function fibsRec(n) {
+    console.log("This was printed recursively");
+
     if (n <= 1) {
         return[0];
     }
@@ -23,4 +27,4 @@ function fibsRec(n) {
     return sequence;
 }
 
-console.log(fibsRec(10));
+console.log(fibsRec(8));
