@@ -1,5 +1,5 @@
 function fibs(n) {
-    console.log("This was printed recursively");
+    console.log("This was printed recursively using fibs function");
 
     let sequence = [0, 1];
 
@@ -13,7 +13,7 @@ function fibs(n) {
 console.log(fibs(8));
 
 function fibsRec(n) {
-    console.log("This was printed recursively");
+    console.log("This was printed recursively using fibsRec function");
 
     if (n <= 1) {
         return[0];
